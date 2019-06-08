@@ -1,0 +1,9 @@
+# ignore npm packages
+node_modules/
+
+# ignore tsc generated files
+src/*.js
+src/*.map
+
+# ignor webpack output
+dist/

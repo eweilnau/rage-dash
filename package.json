@@ -1,0 +1,24 @@
+{
+  "name": "rage-dash",
+  "version": "1.0.0",
+  "description": "This is a geometry dash clone for nodejs written in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "start": "start webpack --watch & start live-server --port=8085"
+  },
+  "author": "Alan Weilnau",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.7",
+    "@types/webpack": "^4.4.32",
+    "live-server": "^1.2.1",
+    "phaser": "^3.17.0",
+    "ts-loader": "^6.0.2",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
+  }
+}
